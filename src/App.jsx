@@ -1,9 +1,7 @@
-function app(){
-   return(
-    <div>
-      hello world !
-    </div>
-   )
+const app =()=> {
+  return(
+    <p>hello world</p>
+  )
 }
 
 export default app;
