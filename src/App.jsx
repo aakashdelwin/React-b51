@@ -1,18 +1,20 @@
-function app (){
-  // const now = new date();
-  
- const a = 10 ;
- const b = 30 ;
- 
+function Hello() {
   return(
-   <div>
-    {/* <p>hello world it is {now .tostring()}</p> */}
-    <p>
-      {a} plus {b} is {a + b}
-    </p>
-   </div>
+    <p>Hello world</p>
   )
 }
+
+
+  function app (){
+    return(
+    <div>
+      <h1>greeting</h1>
+  <Hello/>
+  <Hello/>
+  <Hello/>
+    </div>
+    )
+  }
 
 
 export default app; 
